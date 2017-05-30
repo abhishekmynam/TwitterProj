@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Twitter>
+  <key name="ConsumerKey">
+    <value>I29lYEvNNhq8jnkha6Kwbzx7L</value>
+  </key>
+  <key name="ConsumerSecret">
+    <value>xNXNpNJRP0hYgt4dLRzeB4ve5gdVw52gPGI8pjWJzqtLYNLWOR</value>
+  </key>
+  <key name="AuthToken">
+    <value>189905335-W1QcrtoUlHSOxicSX7f3QuskUO7ZKRtqu6U330w4</value>
+  </key>
+  <key name="AuthTokenSecret">
+    <value>T5UIgLgDPZms7oqZnxMwm6M3S54AEngu0yVAfgcZPvaVG</value>
+  </key>
+
+</Twitter>
