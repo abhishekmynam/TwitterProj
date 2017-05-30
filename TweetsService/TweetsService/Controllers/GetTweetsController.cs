@@ -16,7 +16,7 @@ using System.Web.Http.Cors;
 
 namespace TweetsService.Controllers
 {
-    [EnableCorsAttribute("*","*","*")]
+    [EnableCorsAttribute(" http://tweetfeedclient.us-west-2.elasticbeanstalk.com ", "*", "*")]
     public class GetTweetsController : ApiController
     {
         public IEnumerable<TweetDTO> GetTweets()
