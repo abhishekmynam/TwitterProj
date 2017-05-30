@@ -12,10 +12,11 @@ using System.IO;
 using System.Text;
 using Newtonsoft.Json.Linq;
 using System.Web.Script.Serialization;
-
+using System.Web.Http.Cors;
 
 namespace TweetsService.Controllers
 {
+    [EnableCorsAttribute("*","*","*")]
     public class GetTweetsController : ApiController
     {
         public IEnumerable<TweetDTO> GetTweets()
